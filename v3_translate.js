@@ -7,7 +7,7 @@ var log = require('fancy-log');
 
 
 const request = require('request');
-const uuidv4 = require('uuid/v4');
+const { v4: uuidv4 } = require('uuid')
 
 
 let options = {
